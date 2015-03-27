@@ -1,8 +1,18 @@
 package org.specialisterne.AdminToolSPA;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Person {
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
+
+@ManagedBean
+@SessionScoped
+public class Person implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private int id;
 	private String vorname;
 	private String nachname;
