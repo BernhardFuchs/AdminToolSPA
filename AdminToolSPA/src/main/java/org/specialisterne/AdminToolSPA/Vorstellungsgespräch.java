@@ -1,5 +1,5 @@
 package org.specialisterne.AdminToolSPA;
 
-public class Vermittelt extends Intern{
+public class Vorstellungsgespräch {
 
 }
